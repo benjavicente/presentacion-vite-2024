@@ -1,0 +1,18 @@
+{
+  "name": "charla-vite-2024",
+  "type": "module",
+  "scripts": {
+    "transpiler": "bun run transpiler/server.ts",
+    "import-old": "serve import-old",
+    "ramos-uc": "serve ramos-uc"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "serve": "^14.2.3"
+  }
+}
